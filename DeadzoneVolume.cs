@@ -7,18 +7,18 @@ namespace SDG.Framework.Devkit
     public class DeadzoneVolume : MonoBehaviour
     {
         [SerializeField]
-		private EDeadzoneType _deadzoneType;
-	
-		[SerializeField]
-		private float _unprotectedDamagePerSecond;
-	
-		[SerializeField]
-		private float _protectedDamagePerSecond;
-	
-		[SerializeField]
-		private float _unprotectedRadiationPerSecond = 6.25f;
-	
-		[SerializeField]
-		private float _maskFilterDamagePerSecond = 0.4f;
+	private EDeadzoneType _deadzoneType;
+
+	[SerializeField]
+	private float _unprotectedDamagePerSecond;
+
+	[SerializeField]
+	private float _protectedDamagePerSecond;
+
+	[SerializeField]
+	private float _unprotectedRadiationPerSecond = 6.25f;
+
+	[SerializeField]
+	private float _maskFilterDamagePerSecond = 0.4f;
     }
 }
